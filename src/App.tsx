@@ -579,7 +579,7 @@ const ContactSection = () => {
                             <a href="mailto:yatharth3194@gmail.com" className="text-gray-300 hover:text-cyan-400 transition-colors">
                                 <i className="fas fa-envelope"></i>
                             </a>
-                            <a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQG4mLhmS1E_CA/profile-treasury-document-pdf-analyzed/B4DZnYyNmHHwAg-/0/1760278667652?e=1761177600&v=beta&t=8pcT8xlKx_Ew7A7SQWUMUA6D-UNVygDmgv-zrk9bLjY" title="Download Resume" className="text-gray-300 hover:text-cyan-400 transition-colors">
+                            <a href="https://venoms.app/resources/public/Yatharth_resume.pdf" title="Download Resume" className="text-gray-300 hover:text-cyan-400 transition-colors">
                                 <i className="fas fa-file-pdf"></i>
                             </a>
                         </div>
