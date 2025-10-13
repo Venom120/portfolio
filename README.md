@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository showcases my projects and skills.
 
-## Available Scripts
+## About Me
+## About Me
+I am Yatharth Jain, a final-year B.Tech Computer Science student at Gyan Ganga Institute of Technology and Sciences. I am a Full-Stack Developer and an AI & ML Enthusiast. My passion lies in building innovative solutions and tackling complex problems. I have a strong foundation in machine learning, cloud computing, and full-stack development. I am actively seeking roles where I can contribute my skills and continue to grow as a software engineer.
 
-In the project directory, you can run:
+### Skills
+- **Programming Languages:** Python, TypeScript
+- **Web Development:** FastAPI, React, MongoDB
+- **AI/Machine Learning:** Scikit-learn, TensorFlow, Keras
+- **Cloud & DevOps:** AWS (EC2, S3, Lambda), Oracle Cloud, Nginx, Git hooks for CI/CD
+- **Operating Systems:** Linux
+- **Automation:** Scripting, xdotool, Selenium, PyAutoGUI
+- **Other:** Three.js, OpenCV, Geofencing, Face Verification
 
-### `npm start`
+## Projects
+Here are some of the projects I've worked on:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Geolocation Based Attendance Tracking App:** A modern replacement for traditional biometric systems, using geofencing and random interval face verification to ensure authentic, on-site employee attendance. [Live Demo](https://geonavi.venoms.app)
+- **Pathfinder Game with Q-Learning:** A grid-based game where agents learn to navigate to a goal while avoiding obstacles, implemented using Q-learning reinforcement learning techniques. [Source Code](https://github.com/Venom120/pathfinderML)
+- **BG Clicker:** A simple Python application with a GUI for performing background mouse clicks and keyboard inputs. [Source Code](https://github.com/Venom120/bgclicker)
+- **Scriveners Website:** A full-stack web application for a literary club, featuring a FastAPI backend, React frontend, and deployed on Oracle Cloud with Nginx and Git hooks for CI/CD. [Live Demo](https://scriveners.venoms.app)
+- **CCTV Surveillance System:** A system to assist police in finding missing persons by analyzing CCTV footage. Includes a dashboard for civilians and officers to manage and track FIRs. [Source Code](https://github.com/Venom120/MIP)
+- **Google Form to Whatsapp Group:** A Python script to automatically add numbers from google form to any whatsapp group. [Source Code](https://github.com/Venom120/Number-Whatsapp_grp)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Achievements & Milestones
+- Winner of Gyan Ganga Summer of Code 2024.
+- Attended IDE Bootcamp Phase 3, 2024 by AICTE & MOE at Dehradun.
+- CodeChef Rating: 1512
+- CodeForces Rating: 935
+- LeetCode Rating: 1607
 
-### `npm test`
+## Get In Touch
+I'm actively looking for new opportunities and collaborations. Feel free to reach out if you think my skills are a good fit, or if you just want to connect!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **LinkedIn:** [Yatharth Jain](https://www.linkedin.com/in/yatharth-jain-8039b4248/)
+- **GitHub:** [Venom120](https://github.com/Venom120)
+- **Email:** [yatharth3194@gmail.com](mailto:yatharth3194@gmail.com)
+- **Resume:** [Download Resume](https://media.licdn.com/dms/document/media/v2/D4D2DAQG4mLhmS1E_CA/profile-treasury-document-pdf-analyzed/B4DZnYyNmHHwAg-/0/1760278667652?e=1761177600&v=beta&t=8pcT8xlKx_Ew7A7SQWUMUA6D-UNVygDmgv-zrk9bLjY)
