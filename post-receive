@@ -1,0 +1,15 @@
+#!/bin/bash
+TARGET=~/portfolio  # Path to your working directory
+GIT_DIR=~/portfolio.git  # Path to your bare repository
+
+echo "Deploying latest changes..."
+cd $TARGET || exit
+unset GIT_DIR
+git fetch origin main
+git reset --hard origin/main
+
+# build and deploy
+npm run build
+sudo cp build /var/www/portfolio/build
+
+echo "Deployment complete."
