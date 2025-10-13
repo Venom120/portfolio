@@ -11,5 +11,6 @@ git reset --hard origin/main
 # build and deploy
 npm run build
 sudo cp build /var/www/portfolio/build
+sudo systemctl reload nginx
 
 echo "Deployment complete."
