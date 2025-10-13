@@ -9,9 +9,9 @@ git fetch origin main
 git reset --hard origin/main
 
 # build and deploy
-yarn install
-npm run build
-sudo cp -r build/* /var/www/portfolio/build/
+yarn install || exit
+npm run build || exit
+sudo cp -r build/* /var/www/portfolio/build/ || exit
 sudo systemctl reload nginx
 
 echo "Deployment complete."
