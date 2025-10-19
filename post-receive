@@ -11,15 +11,11 @@ unset GIT_DIR
 git fetch origin main
 git reset --hard origin/main
 
-npm run build
-echo "Build complete for project..."
-echo ""
-
 # --- 2. Rebuild and restart services using Docker Compose ---
 echo "Building and restarting Docker containers..."
 
 # Navigate to the directory with docker-compose.yml and run it
 cd "${COMPOSE_DIR}" || exit
-docker compose up -d --build --remove-orphans
+docker compose up portfolio --build
 
 echo "Deployment complete."
