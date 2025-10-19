@@ -11,7 +11,6 @@ unset GIT_DIR
 git fetch origin main
 git reset --hard origin/main
 
-
 # --- 2. Rebuild and restart services using Docker Compose ---
 yarn install
 yarn run build
