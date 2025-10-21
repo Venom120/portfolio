@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef, Suspense, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Float, Text, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
-import geonaviImg from './assets/geonavi.png';
-import pathfinderImg from './assets/pathfinder.png';
-import bgclickerImg from './assets/bgclicker.jpeg';
-import scrivenersImg from './assets/scriveners.png';
-import faceSurveillanceImg from './assets/faceSurveillance.png';
-import whatsappImg from './assets/whatsapp.png';
+import geonaviImg from '@/assets/geonavi.png';
+import pathfinderImg from '@/assets/pathfinder.png';
+import bgclickerImg from '@/assets/bgclicker.jpeg';
+import scrivenersImg from '@/assets/scriveners.png';
+import faceSurveillanceImg from '@/assets/faceSurveillance.png';
+import whatsappImg from '@/assets/whatsapp.png';
 
 // Helper function for responsive design
 const useMediaQuery = (query: string) => {
