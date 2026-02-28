@@ -13,6 +13,6 @@ git reset --hard origin/main
 
 # Navigate to the directory with docker-compose.yml and run it
 cd "${COMPOSE_DIR}" || exit
-docker compose up portfolio --build
+docker compose up -d --build --remove-orphans --force-recreate portfolio
 
 echo "Deployment complete."
