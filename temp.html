@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .animated-path {
+    /* The length of the path (you usually find this using JavaScript, but let's assume it's about 500 for this curve) */
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    
+    /* The animation triggers over 3 seconds, eases in and out, and plays forward */
+    animation: drawPath 3s ease-in-out forwards;
+  }
+
+  @keyframes drawPath {
+    to {
+      /* This brings the line back into view, creating the drawing effect */
+      stroke-dashoffset: 0;
+    }
+  }
+
+  svg {
+    width: 300px;
+    height: 300px;
+  }
+</style>
+</head>
+<body>
+
+  <svg viewBox="0 0 200 200">
+    <path class="animated-path" 
+          d="M 20 100 C 50 20, 100 20, 100 100 C 100 180, 150 180, 180 100" 
+          stroke="#306998" /* Python Blue */
+          stroke-width="8" 
+          stroke-linecap="round"
+          fill="transparent" />
+  </svg>
+
+</body>
+</html>
