@@ -177,7 +177,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "Geolocation Based Attendance Tracking App",
-      link: "https://geonavi.venoms.app",
+      link: "https://geonavi.venom120.tech",
       description:
         "A modern replacement for biometric systems, using geofencing and random interval face verification to ensure authentic on-site attendance.",
       tags: ["FastAPI", "TypeScript", "MongoDB", "Geofencing", "Face Verification"],
@@ -201,7 +201,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Scriveners Website",
-      link: "https://scriveners.venoms.app",
+      link: "https://scriveners.venom120.tech",
       description:
         "A full-stack literary club app with a FastAPI backend, React frontend, deployed on Oracle Cloud with Nginx and Git-hook CI/CD.",
       tags: ["Python", "FastAPI", "React", "MongoDB", "Oracle Cloud", "Nginx"],
@@ -342,7 +342,7 @@ const ContactSection = () => (
               <i className="fas fa-envelope" />
             </a>
             <a
-              href="https://venoms.app/resources/public/yatharth_resume.pdf"
+              href="https://venom120.tech/resources/public/yatharth_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Resume"
